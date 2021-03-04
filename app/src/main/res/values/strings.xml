@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FirebaseDos</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+    </string>
+</resources>
