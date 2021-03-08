@@ -19,7 +19,9 @@
 
 
     <!--bottom sheet container-->
-    <include layout="@layout/sheet_map" />
+    <include
+        android:id="@+id/bottomJsoft"
+        layout="@layout/sheet_map" />
 
 
 

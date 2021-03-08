@@ -1,7 +1,6 @@
-package com.example.firebasedos;
+package com.example.firebasedos.modelo;
 
-public class Marcadores {
-
+public class Coordenada {
     private double latitud;
     private double longitud;
     private String razon_social;
@@ -11,11 +10,6 @@ public class Marcadores {
     private String nombre_apellidos;
     private String representante_cargo;
     private String ruc;
-
-
-    public Marcadores(){
-
-    }
 
     public double getLatitud() {
         return latitud;
@@ -49,6 +43,14 @@ public class Marcadores {
         this.telefono = telefono;
     }
 
+    public String getCelular() {
+        return celular;
+    }
+
+    public void setCelular(String celular) {
+        this.celular = celular;
+    }
+
     public String getEmail() {
         return email;
     }
@@ -71,14 +73,6 @@ public class Marcadores {
 
     public void setRepresentante_cargo(String representante_cargo) {
         this.representante_cargo = representante_cargo;
-    }
-
-    public String getCelular() {
-        return celular;
-    }
-
-    public void setCelular(String celular) {
-        this.celular = celular;
     }
 
     public String getRuc() {
